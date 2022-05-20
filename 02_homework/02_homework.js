@@ -25,4 +25,4 @@ if (confirm('Чи пропустимо парні числа?')) {
     for (let i= n; i <= m; i++)
     sum+=i
   }
-alert(sum);
+  console.log(sum);
