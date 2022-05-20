@@ -1,7 +1,7 @@
 
 let n=prompt("введіть число ")
 n=Math.round(n);
-if(isnan(n)){
+if(isNaN(n)){
     do{
         alert('введіть ціле число!!!');
      n= Math.round(prompt('введіть ціле число N знову:'));
@@ -10,7 +10,7 @@ if(isnan(n)){
 }
 let m=prompt("введіть число ")
 m=Math.round(m);
-if(isnan(m)){
+if(isNaN(m)){
     do{
         alert('введіть ціле число!!!');
      m = Math.round(prompt('введіть ціле число M знову:'));
