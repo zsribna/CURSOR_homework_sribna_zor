@@ -4,6 +4,7 @@ let textFontSize = document.querySelector(".textFontSize");
 const buttonUp = document.querySelector(".up");
 const buttonDown = document.querySelector(".down");
 
+
 const idGenerator = createIdGenerator();
 function* createIdGenerator() {
   let count = 1;
@@ -48,7 +49,6 @@ console.log(fontGenerator.next("down").value)
 console.log(fontGenerator.next("down").value)
 console.log(fontGenerator.next("down").value)
 console.log(fontGenerator.next().value)
-
 
 fontGenerator.next("up").value;
 function fontUp() {
