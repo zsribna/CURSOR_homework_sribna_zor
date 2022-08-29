@@ -1,0 +1,26 @@
+
+.fon {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  
+}
+
+
+
+.App {
+  margin-top: 40px;
+  background-color: #282c34;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+  border: 1px solid rgb(158, 204, 30);
+  border-radius: 10px;
+  
+  
+}
+
+
+
+
